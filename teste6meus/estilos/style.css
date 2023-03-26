@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+  margin: 40px;
+}
+
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+  gap: 20px;
+ }
+
+
+.um,.dois,.tres,.quatro{
+  background-color: lightblue;
+  border-radius: 4px;
+}
+
+.um,.tres{
+  width: 150px;
+}
+
+.um,.dois,.tres,.quatro{
+  display: grid;
+  text-align: center;
+  align-content: center;
+}
+
+.dois{
+ min-width: 250px;
+}
+
+.quatro{
+  grid-row: 2;
+  height: 100px;
+}
