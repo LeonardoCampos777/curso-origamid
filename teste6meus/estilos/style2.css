@@ -19,6 +19,7 @@ body{
   grid-column: 1;
   align-content: center;
   place-self: start start;
+  justify-items: end;
   gap: 20px;
 }
 
