@@ -13,20 +13,19 @@ body{
   grid-column: 2;
 }
 
-.info{
-  display: grid;
-  grid-row: 2;
-  grid-column: 1;
-  align-content: center;
-  place-self: start start;
-  justify-items: end;
-  gap: 20px;
-}
-
 .foto{
   grid-column: 2;
 }
 
+
+.info{
+  display: grid;
+  grid-row: 2;
+  grid-column: 1;
+  place-self: start start;
+  justify-items: end;
+  gap: 20px;
+}
 
 /* ESTILOS DA PAGE  */
 
