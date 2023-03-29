@@ -1,0 +1,25 @@
+body{
+  margin: 0px;
+}
+
+.flex{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.grid{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  gap: 20px;
+}
+
+
+
+h2{
+  background-color: lightblue;
+  border: 1px solid darkblue;
+  padding: 2rem;
+  margin: 0px;
+}

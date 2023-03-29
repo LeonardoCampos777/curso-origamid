@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  grid-template-rows: auto 600px 109px;
+}
+
+header{
+  grid-column: 1 / -1;
+}
+
+main{
+  display: grid;
+  grid-row: 2 / 2;
+}
+
+aside{
+  grid-row: 2 /-1;
+}
+
+.usuario{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.icons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+
+  /* ESTILOS DA PÁGINA */
+body{
+  height: 100vh;
+}
+
+header{
+  background-color: black;
+  color: red;
+  height: 5rem;
+  text-align: center;
+  padding: 20px;
+}
+
+main{
+  background-color: antiquewhite;
+  padding: 30px;
+}
+
+.icons{
+  padding-top: 100px;
+}
+
+aside{
+  background-color: lightgrey;
+  color: red;
+  padding: 5px;
+}
+
+footer{
+  background-color: darkviolet;
+  color: red;
+  padding: 5px;
+}

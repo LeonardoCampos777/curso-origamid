@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: 100px auto auto;
+  gap: 20px;
+}
+
+.bateria{
+  display: grid;
+  grid-row: 1 / -1;
+  height: 340px;
+}
+
+
+.grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 200px 200px ;
+}
+
+.griddois{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+}
+
+.bate{
+  height: 220px;
+  grid-row: 1 / -1;
+}
+
+.canto{
+  height: 220px;
+  grid-row: 3 / -1;
+}
+
+/* */
+
+li{
+  padding: 20px;
+  border: 1px solid rgb(65, 65, 255);
+  border-radius: 4px;
+  height: 100px;
+  list-style: none;
+
+}

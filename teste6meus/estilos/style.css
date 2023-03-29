@@ -7,7 +7,6 @@ body{
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto 1fr;
   gap: 2rem;
 }
 
@@ -24,9 +23,8 @@ body{
 
 .comprar{
   display: grid;
-  align-self: end;
+  align-self: center;
 }
-
 
 /* ESTILOS DA PAGE  */
 
@@ -65,8 +63,6 @@ img{
   color: black;
   padding: 10px 30px;
   border-radius: 4px;
-
-  
 }
 
 a{
