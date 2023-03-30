@@ -16,7 +16,6 @@ ul{
 .bateria{
   display: grid;
   grid-row: 1 / -1;
-  height: 340px;
 }
 
 
@@ -33,13 +32,15 @@ ul{
 }
 
 .bate{
-  height: 220px;
-  grid-row: 1 / -1;
+  grid-row-start: 1;
+     grid-row-end: 3;
+     grid-column-start: 1;
 }
 
 .canto{
-  height: 220px;
-  grid-row: 3 / -1;
+     grid-row-start: 1;
+     grid-row-end: 3;
+     grid-column-start: 3;
 }
 
 /* */
@@ -48,7 +49,6 @@ li{
   padding: 20px;
   border: 1px solid rgb(65, 65, 255);
   border-radius: 4px;
-  height: 100px;
   list-style: none;
 
 }
