@@ -10,7 +10,6 @@ h3{
 }
 
 
-
 body{
   margin: 0px;
   padding: 0px;
@@ -108,3 +107,12 @@ img{
 .vantagens-itens > p{
   grid-column: 2;
 }
+
+footer{
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+  
