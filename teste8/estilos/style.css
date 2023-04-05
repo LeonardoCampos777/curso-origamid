@@ -1,0 +1,11 @@
+.lista-1 li:nth-child(2n){
+  background-color: #caf;
+}
+
+.lista-2 li:nth-child(2n){
+  background-color: rgb(167, 255, 94);
+}
+
+.lista-3 li:not(:first-child){
+  background-color: rgb(94, 110, 255);
+}
