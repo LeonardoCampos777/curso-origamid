@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body{
   background-color: #F7F7F7;
   display: grid;
@@ -12,7 +11,6 @@ body{
   gap: 60px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 img{
   max-width: 100%;
@@ -127,6 +125,11 @@ header h1{
   align-items: center;
   gap: 10px 20px;
   padding: 20px;
+  border-left: 4px solid transparent;
+}
+
+.vantagens-itens:hover{
+  border-left: 4px solid #0096c7;
 }
 
 .vantagens-itens:nth-child(odd){
