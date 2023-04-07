@@ -111,6 +111,7 @@ img{
 .subtitulo{
   background: url(../imagens/onda.svg);
   font-size: 64px;
+  font-weight: bold;
   color: #c6c6c6;
   align-self: center;
   text-align: end;
@@ -120,7 +121,6 @@ img{
 .vantagens{
   background-color: white;
   padding: 2.5rem;
-  position: relative;
 }
 
 .vantagens-itens{
