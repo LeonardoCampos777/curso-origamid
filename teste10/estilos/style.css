@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width:800px){
+  .minmax img{
+    grid-row: 2;
+  }
+}
+
+p{
+  font-size: 2rem;
+}
+
+.galeria{
+  margin-top: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+
+}
