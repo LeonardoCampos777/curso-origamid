@@ -38,6 +38,7 @@ header{
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
+
 }
  
 .menu a{
@@ -87,6 +88,11 @@ main{
   right: -2rem;
 }
 
+.introducao-cover img{
+  height: 100%;
+  object-fit: cover;
+}
+
 .introducao > h1{
   font-size: 2rem;
 }
@@ -114,7 +120,7 @@ img{
   font-weight: bold;
   color: #c6c6c6;
   align-self: center;
-  text-align: end;
+  text-align: center;
   padding: 2.5rem;
 }
 
@@ -153,4 +159,46 @@ footer{
   text-align: center;
   padding: 2.5rem;
 }
+
+@media (max-width: 1000px){
+  .conteudo-vantagens{
+    grid-template-columns: 1fr;
+  }
+}
   
+@media (max-width: 600px){
+  .header{
+    gap: 30px;
+  }
+
+  .conteudo{
+    grid-template-columns: 1fr;
+  }
+
+  .introducao{
+    text-align: left;
+    justify-items: start;
+  }
+
+  .introducao::before{
+    display: none;
+  }
+
+  .ver-mais{
+    justify-self: start;
+  }
+
+  .subtitulo{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px){
+  .subtitulo{
+    font-size: 2rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+}
