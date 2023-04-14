@@ -39,9 +39,9 @@
   background-color: #000000;
   padding: 20px;
   border-radius: 4px;
-  flex: 1;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .faculdade-tipo{
