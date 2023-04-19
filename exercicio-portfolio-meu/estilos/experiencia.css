@@ -66,3 +66,21 @@
   border-radius: 4px;
   background-color: #fff;
 }
+
+@media (max-width:800px){
+  .experiencia{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .experiencia-titulo{
+    font-size: 3rem;
+    word-break: initial;
+    text-transform: initial;
+    color: #000;
+  }
+
+  .experiencia-texto{
+    font-size: 1.275rem;
+  }
+}
