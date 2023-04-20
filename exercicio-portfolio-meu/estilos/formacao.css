@@ -129,5 +129,15 @@
   .formacao-texto{
     font-size: 1.125rem;
   }
-}
 
+  .formacao-extra .cursos h3::before{
+    left: 0px;
+    top: -30px;
+  }
+
+  .formacao-extra .idioma h3::before{
+    left: 0px;
+    top: -30px;
+  }
+
+}
