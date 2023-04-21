@@ -43,6 +43,13 @@
   margin-top: 30px;
 }
 
+.introducao-redes li:hover{
+  background-color: #000000;
+  transition: 500ms linear;
+  border-radius: 5px;
+}
+
+
 @media (max-width:1000px){
   .introducao-texto{
     font-size: 3rem;
