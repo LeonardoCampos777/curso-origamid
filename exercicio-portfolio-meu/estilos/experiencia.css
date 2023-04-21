@@ -102,6 +102,16 @@
   }
 }
 
+@media (max-width:410px) and (min-width:400px){
+  .projetos{
+    padding: 10px;
+  }
+
+  .projetos h3::before{
+    left: -14px;
+  }
+}
+
 @media (max-width:400px){
   .projetos{
     grid-template-columns: 1fr;
