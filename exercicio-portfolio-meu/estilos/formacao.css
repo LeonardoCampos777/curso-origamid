@@ -1,7 +1,7 @@
 .formacao{
   background-color: #141414;
   color: white;
-  margin-bottom: 10000px;
+  position: relative;
 }
 
 .formacao-container{
@@ -140,5 +140,4 @@
     left: 0px;
     top: -30px;
   }
-
 }
