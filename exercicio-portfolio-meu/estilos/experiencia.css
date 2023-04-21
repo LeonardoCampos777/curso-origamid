@@ -54,11 +54,16 @@
 
 .projeto-titulo a{
   text-decoration: none;
+  line-height: 1.7;
   color: black;
+  background-color: #9cff249a;
+  border-radius: 4px;
+  padding: 5px;
+
 }
 
 .projeto-titulo a:hover{
-  color: #70DA1C;
+  color: #249069;
 }
 
 .projeto-texto{
