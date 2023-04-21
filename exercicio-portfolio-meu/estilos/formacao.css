@@ -63,6 +63,7 @@
   background: linear-gradient(#9dff24, #70DA1C);
   position: absolute;
   left: -24px;
+  top: 2px;
 }
 
 .formacao-extra li{
