@@ -12,6 +12,11 @@
   border-radius: 40px;
 }
 
+.introducao-bem-vindo{
+  font-size: 1.125rem;
+  padding-bottom: 40px;
+}
+
 .introducao-texto{
   font-size: 4.5rem;
   line-height: 1.1;
