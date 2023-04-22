@@ -71,6 +71,10 @@
     height: 10px;
     left: 0px;
   }
+
+  .introducao-local{
+    font-size: 1.225rem;
+  }
 }
 
 @media (max-width:400px){
@@ -83,7 +87,7 @@
   }
 
   .introducao-local{
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   .introducao .introducao-redes img{

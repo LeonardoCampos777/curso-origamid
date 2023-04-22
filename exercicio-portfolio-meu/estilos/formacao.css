@@ -146,4 +146,11 @@
   .formacao .subtitulo{
     justify-self: center;
   }
+
+}
+
+@media (max-width:400px){
+  .formacao-texto{
+    font-size: 1.1rem;
+  }
 }
