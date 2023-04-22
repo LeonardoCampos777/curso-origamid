@@ -9,8 +9,8 @@
 }
 
 .header-logo{
-  
-  max-width: 16%;
+  width: 120px;
+  height: 120px;
 }
 
 .header-menu{
@@ -32,10 +32,6 @@
     gap: 40px;
   }
 
-  .header-logo{
-    max-width: 25%;
-  }
-
 .header-menu{
   gap: 10px;
 }
@@ -47,17 +43,7 @@
   }
 }
 
-@media (max-width:480px){
-  .header-logo{
-    max-width: 35%;
-  }
-}
-
 @media (max-width:400px){
-  .header-logo{
-    max-width: 20%;
-  }
-
   .header-menu{
     flex-wrap: wrap;
     justify-content: center;
