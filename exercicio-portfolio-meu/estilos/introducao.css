@@ -82,6 +82,10 @@
     display: none;
   }
 
+  .introducao-local{
+    font-size: 1rem;
+  }
+
   .introducao .introducao-redes img{
     display: block;
   }
