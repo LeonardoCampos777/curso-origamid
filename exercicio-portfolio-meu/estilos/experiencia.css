@@ -51,7 +51,6 @@
   top: 5px;
 }
 
-
 .projeto-titulo a{
   text-decoration: none;
   line-height: 1.7;
@@ -59,7 +58,6 @@
   background-color: #9cff249a;
   border-radius: 4px;
   padding: 5px;
-
 }
 
 .projeto-titulo a:hover{
@@ -116,9 +114,7 @@
   .projetos{
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width:400px){
+  
   .experiencia-texto{
     font-size: 1.1rem;
   }
