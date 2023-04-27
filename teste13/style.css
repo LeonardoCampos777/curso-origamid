@@ -1,0 +1,24 @@
+body{
+  font-size: 2rem;
+}
+
+.titulo{
+  color: tomato;
+  padding: 10px;
+}
+
+#produtos{
+  color: lightgreen;
+}
+
+.titulo.teste{
+  color: blue;
+}
+
+.teste{
+  border-left: 8px solid lawngreen;
+}
+
+h2{
+  color: firebrick !important;
+}

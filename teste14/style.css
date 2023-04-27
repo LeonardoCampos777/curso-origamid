@@ -1,0 +1,11 @@
+:root{
+  --roxo: #84e;
+  --verde: rgb(15, 228, 15);
+}
+h1{
+  color: var(--roxo);
+}
+
+p{
+  color: var(--verde);
+}
