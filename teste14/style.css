@@ -1,11 +1,32 @@
-:root{
-  --roxo: #84e;
-  --verde: rgb(15, 228, 15);
+@media (prefers-color-scheme:dark){
+  :root{
+    --fundo: #222;
+    --texto-1: #eee;
+    --texto-2: #bbb;
+  }
 }
+
+
+
+@media (prefers-color-scheme:ligth){
+  :root{
+    --fundo: #fff;
+    --texto-1: #111;
+    --texto-2: #444;
+  }
+}
+
+body{
+  font-family: arial;
+  font-size: 1.2rem;
+  background-color: var(--fundo);
+}
+
 h1{
-  color: var(--roxo);
+  color: var(--texto-1);
 }
 
 p{
-  color: var(--verde);
+  color: var(--texto-2);
+  font-size: 2rem;
 }
